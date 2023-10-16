@@ -6,24 +6,59 @@
 //
 
 import UIKit
+import StatefulViewController
 
-class BaseStatefulViewController: UIViewController {
+/// A ViewController base class that helps with StatefulViewController
+class BaseStatefulViewController<VM: BaseStatefulViewModel>: BaseViewController<VM>, StatefulViewController {
 
+    // MARK: - Properties
+    
+    /// Reference to errorView used to add functionality to gesture recognizers in it from within sub ViewControllers
+    var failureView: ErrorView?
+    
+    // MARK: - Methods
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        setupViews()
+        
+        // Setup StatefulViewController initial state to be loading.
+        startLoading(animated: false)  // setupInitialViewState()
+        
+        setupBinding()
+        
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    
+    // MARK: - Setup
+    
+    private func setupViews() {
+        // Setup StatefulViewController placeholder views
+        loadingView = LoadingView(frame: view.frame)
+        emptyView = EmptyView(frame: view.frame)
+        failureView = ErrorView(frame: view.frame)
+        errorView = failureView
     }
-    */
+    
+    private func setupBinding() {
+        // Subscribe to viewModel.stateTransitionEvent
+        viewModel.statefulViewControllerEvent.asSignal().emit(onNext: { [weak self] (isLoading, error) in
+            self?.failureView?.textLabel.text = error?.localizedDescription
+            self?.transitionViewStates(loading: isLoading, error: error, animated: true)
+        }).disposed(by: disposeBag)
+    }
+    
+}
 
+extension BaseStatefulViewController {
+    
+    func hasContent() -> Bool {
+        return viewModel.hasContent
+    }
+    
+    func handleErrorWhenContentAvailable(_ error: Error) {
+        showMessage(body: error.localizedDescription, theme: .error)
+    }
 }

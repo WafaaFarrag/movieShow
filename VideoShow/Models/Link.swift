@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+struct files: Codable {
+    let files: [String]
+    
+}

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "35CA6B24-9CE7-4ABA-B806-3188937841C3"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F474E342-1E09-4A10-BE91-BC69BF9DA88A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "VideoShow/Utils/Single+MoyaErrorHandler.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "subscribeWithDefaultErrorHandling(onSuccess:onError:viewModel:errorMessageSize:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F474E342-1E09-4A10-BE91-BC69BF9DA88A - 249e19e21aa3009"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (&#x3c4;_0_0.Element) -&gt; () in RxSwift.PrimitiveSequenceType&lt; where &#x3c4;_0_0.Trait == RxSwift.SingleTrait&gt;.subscribeWithDefaultErrorHandling(onSuccess: (&#x3c4;_0_0.Element) -&gt; (), onError: Swift.Optional&lt;(Swift.Error) -&gt; ()&gt;, viewModel: VideoShow.BaseViewModel, errorMessageSize: VideoShow.MessageSize) -&gt; RxSwift.Disposable"
+                  moduleName = "VideoShow"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wafaafarag/Desktop/VideoShow/VideoShow/Utils/Single+MoyaErrorHandler.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "120">
+               </Location>
+               <Location
+                  uuid = "F474E342-1E09-4A10-BE91-BC69BF9DA88A - 249e19e21aa3028"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (&#x3c4;_0_0.Element) -&gt; () in RxSwift.PrimitiveSequenceType&lt; where &#x3c4;_0_0.Trait == RxSwift.SingleTrait&gt;.subscribeWithDefaultErrorHandling(onSuccess: (&#x3c4;_0_0.Element) -&gt; (), onError: Swift.Optional&lt;(Swift.Error) -&gt; ()&gt;, viewModel: VideoShow.BaseViewModel, errorMessageSize: VideoShow.MessageSize) -&gt; RxSwift.Disposable"
+                  moduleName = "VideoShow"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wafaafarag/Desktop/VideoShow/VideoShow/Utils/Single+MoyaErrorHandler.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "120">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6B49A7E9-56CC-4F86-8E62-D5CC692964E3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "VideoShow/Utils/Single+MoyaErrorHandler.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "subscribeWithDefaultErrorHandling(onSuccess:onError:viewModel:errorMessageSize:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6B49A7E9-56CC-4F86-8E62-D5CC692964E3 - 33238167330cad97"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Error) -&gt; () in RxSwift.PrimitiveSequenceType&lt; where &#x3c4;_0_0.Trait == RxSwift.SingleTrait&gt;.subscribeWithDefaultErrorHandling(onSuccess: (&#x3c4;_0_0.Element) -&gt; (), onError: Swift.Optional&lt;(Swift.Error) -&gt; ()&gt;, viewModel: VideoShow.BaseViewModel, errorMessageSize: VideoShow.MessageSize) -&gt; RxSwift.Disposable"
+                  moduleName = "VideoShow"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wafaafarag/Desktop/VideoShow/VideoShow/Utils/Single+MoyaErrorHandler.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "252">
+               </Location>
+               <Location
+                  uuid = "6B49A7E9-56CC-4F86-8E62-D5CC692964E3 - 33238167330cadf4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Error) -&gt; () in RxSwift.PrimitiveSequenceType&lt; where &#x3c4;_0_0.Trait == RxSwift.SingleTrait&gt;.subscribeWithDefaultErrorHandling(onSuccess: (&#x3c4;_0_0.Element) -&gt; (), onError: Swift.Optional&lt;(Swift.Error) -&gt; ()&gt;, viewModel: VideoShow.BaseViewModel, errorMessageSize: VideoShow.MessageSize) -&gt; RxSwift.Disposable"
+                  moduleName = "VideoShow"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wafaafarag/Desktop/VideoShow/VideoShow/Utils/Single+MoyaErrorHandler.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "252">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

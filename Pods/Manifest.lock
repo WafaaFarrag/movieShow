@@ -1,0 +1,77 @@
+PODS:
+  - Alamofire (5.8.0)
+  - Kingfisher (7.9.1)
+  - ModelMapper (10.0.1):
+    - ModelMapper/Core (= 10.0.1)
+  - ModelMapper/Core (10.0.1)
+  - Moya (14.0.0):
+    - Moya/Core (= 14.0.0)
+  - Moya-ModelMapper (10.0.0):
+    - Moya-ModelMapper/Core (= 10.0.0)
+  - Moya-ModelMapper/Core (10.0.0):
+    - ModelMapper (~> 10.0)
+    - Moya (~> 14.0)
+  - Moya/Core (14.0.0):
+    - Alamofire (~> 5.0)
+  - Moya/RxSwift (14.0.0):
+    - Moya/Core
+    - RxSwift (~> 5.0)
+  - NVActivityIndicatorView (5.1.1):
+    - NVActivityIndicatorView/Base (= 5.1.1)
+  - NVActivityIndicatorView/Base (5.1.1)
+  - Player (0.14.0)
+  - RxCocoa (5.1.3):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.1.3):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.3)
+  - StatefulViewController (3.0)
+  - SwiftMessages (9.0.8):
+    - SwiftMessages/App (= 9.0.8)
+  - SwiftMessages/App (9.0.8)
+
+DEPENDENCIES:
+  - Kingfisher
+  - ModelMapper
+  - Moya-ModelMapper
+  - Moya/RxSwift
+  - NVActivityIndicatorView (~> 5.1)
+  - Player (~> 0.14)
+  - RxCocoa
+  - RxSwift
+  - StatefulViewController (~> 3.0)
+  - SwiftMessages
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Kingfisher
+    - ModelMapper
+    - Moya
+    - Moya-ModelMapper
+    - NVActivityIndicatorView
+    - Player
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - StatefulViewController
+    - SwiftMessages
+
+SPEC CHECKSUMS:
+  Alamofire: 0e92e751b3e9e66d7982db43919d01f313b8eb91
+  Kingfisher: 1d14e9f59cbe19389f591c929000332bf70efd32
+  ModelMapper: 0f68dd4300d0e27290c70f66492c7f795da21bcf
+  Moya: 5b45dacb75adb009f97fde91c204c1e565d31916
+  Moya-ModelMapper: e3a478500921e7299804dc1ac550f1ebf3228ade
+  NVActivityIndicatorView: 1f6c5687f1171810aa27a3296814dc2d7dec3667
+  Player: 37e0acc16ea1495fc241df88fe9f089367513331
+  RxCocoa: e2ed092d5432e4296aa818021d27de4090ac0354
+  RxRelay: 5a18c2eb2d68326ebaf0112f80d837ae41b92b97
+  RxSwift: 915abbdfb62214aa89ccd0b194d44fb478019b27
+  StatefulViewController: 4803bf900d44de26074344998e10e041113b5931
+  SwiftMessages: 3601317b44ed2e1a54e2c6901b4362a364bf4862
+
+PODFILE CHECKSUM: eed6e64db7012967f81ee70b40d9d70752172beb
+
+COCOAPODS: 1.12.1
